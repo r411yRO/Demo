@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Datele Utilizatorului</title>
+</head>
+<body>
+    <h1>Datele Utilizatorului</h1>
+    
+    <p><strong>ID:</strong> <span th:text="${userData.id}"></span></p>
+    <p><strong>Username:</strong> <span th:text="${userData.username}"></span></p>
+    <p><strong>Email:</strong> <span th:text="${userData.email}"></span></p>
+    
+    <!-- Alte câmpuri ale utilizatorului pot fi adăugate aici, în funcție de structura clasei UserData -->
+</body>
+</html>
